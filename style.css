@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #2196f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    margin-top: 10px;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.scoreboard {
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 400px;
+    margin: 10px 0;
+}
+
+canvas {
+    background: #2196f3;
+    border: 2px solid #fff;
+    max-width: 100%;
+    height: auto;
+}
